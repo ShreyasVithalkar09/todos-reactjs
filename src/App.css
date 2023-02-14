@@ -1,0 +1,45 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html,
+body,
+#__next {
+	height: 100%;
+	width: 100%;
+}
+
+.cursor-ptr {
+  cursor: pointer
+}
+
+
+
+/* Table scroll */
+.my-custom-scrollbar {
+position: relative;
+max-height:300px;
+overflow: auto;
+}
+.table-wrapper-scroll-y {
+display: block;
+}
+
+.table-scroll-y {
+  max-height:300px;
+  
+}
+
+.fixed-table-head {
+   top: 0;
+   position: sticky;
+   background-color: #fff;
+  overflow: auto
+}
+
+#dtHorizontalExample th, td {
+  white-space: nowrap;
+}
